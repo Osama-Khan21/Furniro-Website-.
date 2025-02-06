@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useCartContext } from "@/context/CartContext";
 import Swal from "sweetalert2";
-import sanityClient  from '@sanity/client';
+import sanityClient  from "@sanity/client";
 
 const sanity = sanityClient({
   projectId: "3e6aa88e",
