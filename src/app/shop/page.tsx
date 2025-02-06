@@ -2,7 +2,7 @@ import Image from "next/image";
 import Feature from "@/components/Feature";
 import Products from "../query/Products/page";
 import Link from "next/link";
-import sanityClient  from '@sanity/client';
+import sanityClient  from "@sanity/client";
 
 const sanity = sanityClient({
   projectId: "3e6aa88e",
